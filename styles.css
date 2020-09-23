@@ -1,12 +1,12 @@
 /*
-=============== 
+===============
 Fonts
 ===============
 */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
 
 /*
-=============== 
+===============
 Variables
 ===============
 */
@@ -54,7 +54,7 @@ Variables
   --fixed-width: 620px;
 }
 /*
-=============== 
+===============
 Global Styles
 ===============
 */
@@ -152,7 +152,7 @@ main {
 }
 
 /*
-=============== 
+===============
 Reviews
 ===============
 */
@@ -250,6 +250,7 @@ main {
   margin: 0 0.5rem;
   transition: var(--transition);
   cursor: pointer;
+  outline: none;
 }
 .prev-btn:hover,
 .next-btn:hover {
